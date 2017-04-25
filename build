@@ -1,0 +1,2 @@
+./configure CPPFLAGS="-I../libunsod/lib/include" --disable-shared
+make
