@@ -44,3 +44,5 @@ Test result with iperf official for one TCP connection
 	[  5]   0.00-10.20  sec  0.00 Bytes  0.00 bits/sec                  sender
 	[  5]   0.00-10.20  sec   129 MBytes   106 Mbits/sec                  receiver
 
+NOTE: The two test were executed on a same VM with Intel i5-4300 hosted.
+
