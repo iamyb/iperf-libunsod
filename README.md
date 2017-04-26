@@ -1,10 +1,9 @@
 # iperf-libunsod
 iperf integrated with libunsod. Around 50 LOC modified in iperf source code!
 
-### Perfromance
+### Performance
 Test result with iperf-libunsod for one TCP connection 
 
-	[  3] local 192.168.56.12 port 11111 connected to 192.168.56.12 port 11111
 	[ ID] Interval           Transfer     Bandwidth
 	[  3]   0.00-1.00   sec  30.3 MBytes   254 Mbits/sec
 	[  3]   1.00-2.00   sec  36.2 MBytes   303 Mbits/sec
@@ -25,8 +24,6 @@ Test result with iperf-libunsod for one TCP connection
 
 Test result with iperf official for one TCP connection
  
-	Accepted connection from 192.168.56.101, port 51184
-	[  5] local 192.168.56.11 port 11111 connected to 192.168.56.101 port 51185
 	[ ID] Interval           Transfer     Bandwidth
 	[  5]   0.00-1.00   sec  32.4 MBytes   272 Mbits/sec
 	[  5]   1.00-2.01   sec  8.95 MBytes  74.7 Mbits/sec
